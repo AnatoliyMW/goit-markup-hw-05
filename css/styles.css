@@ -552,6 +552,17 @@ img {
 }
 .form_svg_close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 24px;
+  height: 24px;
+}
+.text {
+  width: 360px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 .p_modal_window {
   font-weight: 500;
@@ -643,6 +654,7 @@ img {
   fill: transparent;
 }
 .label_svg {
+  margin-right: 8px;
 }
 .visually-hidden:checked .label_span {
   background-color: #404bbf;
@@ -672,6 +684,9 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  margin: auto;
 }
