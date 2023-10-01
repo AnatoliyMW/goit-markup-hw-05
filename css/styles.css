@@ -590,9 +590,9 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input_modal_window::after {
+.div_input::after {
   content: "";
-  position: relative;
+  position: absolute;
   width: 1.25px;
   height: 18px;
   background: #2e2f42;
@@ -661,7 +661,7 @@ img {
 .label_svg {
   margin-right: 8px;
 }
-.visually-hidden:checked .label_span {
+.check input:checked + .label_check .label_span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
