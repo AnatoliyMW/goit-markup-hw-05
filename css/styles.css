@@ -555,15 +555,6 @@ img {
   width: 24px;
   height: 24px;
 }
-.text {
-  width: 360px;
-  color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
 .p_modal_window {
   font-weight: 500;
   font-size: 16px;
@@ -572,6 +563,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  width: 360px;
 }
 .div_form_modal_window {
   margin-bottom: 8px;
