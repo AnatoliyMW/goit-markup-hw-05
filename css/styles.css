@@ -661,6 +661,8 @@ img {
 }
 .label_svg {
   margin-right: 8px;
+  width: 16px;
+  height: 16px;
 }
 .check input:checked + .label_check .label_span {
   background-color: #404bbf;
