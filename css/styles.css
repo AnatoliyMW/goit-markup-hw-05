@@ -663,7 +663,6 @@ img {
 .label_svg {
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  margin-right: 8px;
 }
 .label_svg:hover {
   fill: var(--OCEAN, #404bbf);
@@ -692,15 +691,17 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   margin: auto;
+}
+
+.send_button:hover {
+  background-color: #404bbf;
+}
+
+.send_button:focus {
+  background-color: #404bbf;
 }
