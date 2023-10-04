@@ -494,7 +494,16 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  padding: 8px 24px;
 }
+.form_button:hover {
+  background-color: #404bbf;
+}
+
+.form_button:focus {
+  background-color: #404bbf;
+}
+
 .form_svg {
   margin-left: 16px;
 }
@@ -589,16 +598,6 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.div_input::after {
-  content: "";
-  position: absolute;
-  width: 1.25px;
-  height: 18px;
-  background: #2e2f42;
-  right: -38px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .input_modal:focus {
