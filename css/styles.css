@@ -658,6 +658,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .label_svg {
   stroke-width: 1px;
