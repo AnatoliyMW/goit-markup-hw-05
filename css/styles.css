@@ -659,15 +659,7 @@ img {
   fill: transparent;
   margin-right: 8px;
 }
-.label_svg {
-  stroke-width: 1px;
-  stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-}
-.label_svg:hover {
-  fill: var(--OCEAN, #404bbf);
-  stroke-width: 1px;
-  stroke: var(--OCEAN, #404bbf);
-}
+
 .check input:checked + .label_check .label_span {
   background-color: #404bbf;
   border: none;
