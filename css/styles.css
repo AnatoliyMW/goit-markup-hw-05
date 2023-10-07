@@ -400,7 +400,7 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  width: 264px;
 }
 img {
   display: block;
@@ -444,6 +444,8 @@ img {
   fill: #f4f4fd;
 }
 .form_footer {
+  margin-right: 24px;
+  margin-left: 80px;
 }
 .p_form {
   margin-bottom: 16px;
