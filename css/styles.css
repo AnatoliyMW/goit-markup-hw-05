@@ -406,7 +406,6 @@ img {
   display: block;
 }
 .container-social {
-  padding-right: 80px;
 }
 .p-footer {
   font-weight: 500;
@@ -496,7 +495,6 @@ img {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
-  margin-right: 159px;
 }
 .form_button:hover {
   background-color: #404bbf;
@@ -580,6 +578,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+  width: 360px;
 }
 .div_form_modal {
   margin-bottom: 8px;
