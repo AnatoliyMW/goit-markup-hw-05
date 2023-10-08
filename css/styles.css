@@ -474,8 +474,8 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
-  margin-left: 80px;
-  margin-right: 24px;
+  padding-left: 80px;
+  padding-right: 24px;
 }
 .form_input placeholder {
   color: #ffffff;
@@ -580,7 +580,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
-  width: 360px;
 }
 .div_form_modal {
   margin-bottom: 8px;
