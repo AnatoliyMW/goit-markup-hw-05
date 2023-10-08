@@ -406,6 +406,7 @@ img {
   display: block;
 }
 .container-social {
+  padding-right: 80px;
 }
 .p-footer {
   font-weight: 500;
@@ -454,7 +455,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-left: 80px;
 }
 .form {
   display: flex;
@@ -474,7 +474,6 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
-  padding-left: 80px;
   padding-right: 24px;
 }
 .form_input placeholder {
@@ -497,6 +496,7 @@ img {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
+  margin-right: 159px;
 }
 .form_button:hover {
   background-color: #404bbf;
